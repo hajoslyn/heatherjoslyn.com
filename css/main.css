@@ -1,7 +1,21 @@
+div > h1 {
+  font-size: 3em;
+  color: red;
+}
+
 a {
   text-decoration: none;
 }
-
+/* style my navigation */
 nav li {
   list-style: none;
+}
+#masthead {
+  background-color: orange;
+}
+.main-nav {
+  border: 1px solid black;
+}
+.feature {
+  border: 1px solid black;
 }
