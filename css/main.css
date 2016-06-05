@@ -1,21 +1,25 @@
 div > h1 {
   font-size: 3em;
-  color: red;
+  color: #9a85a1;
 }
 
 a {
   text-decoration: none;
 }
+
 /* style my navigation */
 nav li {
   list-style: none;
 }
 #masthead {
-  background-color: orange;
+  background-color: #9a85a1;
 }
 .main-nav {
   border: 1px solid black;
 }
 .feature {
   border: 1px solid black;
+}
+body {
+  font: normal 16px/1.4 Helvetica;
 }
