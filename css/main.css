@@ -6,8 +6,17 @@ div > h3 {
   font-style: italic;
 }
 a {
+  color: #896565;
+}
+a:hover {
+  color: blue;
   text-decoration: none;
 }
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 
 /* style my navigation */
 nav li {
@@ -22,6 +31,15 @@ nav li {
 .feature {
   border: 1px solid black;
 }
+.profile {
+  width: 300px;
+}
+img {
+  max-width: 100%;
+}
 body {
   font: normal 16px/1.4 Helvetica;
+}
+span {
+  font-style: italic;
 }
