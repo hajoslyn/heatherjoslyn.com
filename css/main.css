@@ -1,8 +1,10 @@
 div > h1 {
   font-size: 3em;
-  color: #9a85a1;
+  color: #896565;
 }
-
+div > h3 {
+  font-style: italic;
+}
 a {
   text-decoration: none;
 }
