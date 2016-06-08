@@ -12,33 +12,38 @@ a:hover {
   color: blue;
   text-decoration: none;
 }
-nav a {
-  text-decoration: none;
-  color: black;
-}
-
-
-/* style my navigation */
-nav li {
-  list-style: none;
-}
-#masthead {
-  background-color: #9a85a1;
-}
-.main-nav {
-  border: 1px solid black;
+body {
+  font: normal 1em/1.4 Helvetica;
+  margin: 0;
+  padding: 0;
 }
 .feature {
   border: 1px solid black;
 }
-.profile {
-  width: 300px;
-}
 img {
   max-width: 100%;
 }
-body {
-  font: normal 16px/1.4 Helvetica;
+/* style my navigation */
+.main-nav {
+  border: 1px solid black;
+}
+#masthead {
+  background-color: #A4ADD3;
+  width: 50%;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav li {
+  list-style: none;
+}
+nav ul {
+  padding: 0;
+}
+//* end of navigation style *//
+.profile {
+  width: 300px;
 }
 span {
   font-style: italic;
