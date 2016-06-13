@@ -1,12 +1,12 @@
 div > h1 {
   font-size: 3em;
-  color: #896565;
+  color: #40441E;
 }
 div > h3 {
   font-style: italic;
 }
 a {
-  color: #896565;
+  color: #40441E;
 }
 a:hover {
   color: blue;
@@ -19,6 +19,7 @@ body {
   font: normal 1em/1.4 Helvetica;
   margin: 0;
   padding: 0;
+  background-color: tan;
 }
 .feature {
   border: 1px solid black;
@@ -32,7 +33,7 @@ img {
   border: 1px solid black;
 }
 #masthead {
-  background-color: #A4ADD3;
+  background-color: #7C6179;
   width: 50%;
 }
 nav a {
