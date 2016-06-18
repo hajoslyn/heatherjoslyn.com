@@ -18,21 +18,22 @@ a:hover {
 }
 .bio {
   padding-top: 10px;
-  width: 50%;
-}
-body {
-  align-content: center;
-  background-color: tan;
-  display: center;
-  font: normal 1em/1.4 Helvetica;
-  margin: 0 auto;
+  width: 40%;
 }
 .feature {
   border: 1px solid black;
-  width: 50%;
+  max-width: 40%;
+}
+html, body {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font: normal 1em/1.4 Helvetica;
+   background-color: tan;
 }
 img {
-  float: left;
   max-width: 25%;
 }
 /* style my navigation */
@@ -41,7 +42,7 @@ img {
 }
 #masthead {
   background-color: #FFC0CA;
-  width: 50%;
+  width: 40%;
 }
 nav a {
   text-decoration: none;
@@ -55,7 +56,6 @@ nav ul {
 }
 //* end of navigation style *//
 .profile {
-  float: left;
   width: 50%;
 }
 span {
