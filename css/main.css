@@ -1,6 +1,8 @@
 div > h1 {
   font-size: 3em;
   color: #665659;
+  max-width: 20%;
+  float: left;
 }
 div > h2 {
   color: #665659
@@ -53,6 +55,7 @@ nav li {
 }
 nav ul {
   padding: 0;
+  max-width: 20%;
 }
 //* end of navigation style *//
 .profile {
