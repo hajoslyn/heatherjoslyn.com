@@ -17,11 +17,11 @@ a:hover {
   text-decoration: none;
 }
 .bio {
+  box-sizing: border-box;
   padding-top: 10px;
   width: 40%;
 }
 .feature {
-  border: 1px solid black;
   max-width: 40%;
 }
 html, body {
@@ -60,4 +60,14 @@ nav ul {
 }
 span {
   font-style: italic;
+}
+.specialities {
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+}
+.skills {
+  box-sizing: border-box;
+  position: relative;
+  width: 20%;
 }
