@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body, ul, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 40em) {
+  main {
+    width: 35em;
+  }
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 28em) {
+  footer li {
+    width: 9em;
+    margin-left: 1em;
+  }
+
+  footer ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

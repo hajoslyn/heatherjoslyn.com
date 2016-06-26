@@ -88,18 +88,18 @@ nav ul {
   padding: 40 0 0 10px;
   float:left;
 }
-#skills #specialities {
+/*--#skills #specialities {
   box-sizing: border-box;
   border: 1px solid black;
   width: 40%;
 }
 #skills {
   padding: 60 10 0 10px;
-  float: left;
-}
+  float: left;--
+}--*/
 span {
   font-style: italic;
 }
-#specialities {
+/*--#specialities {
   padding: 40 0 0 10px;
-}
+}*/
