@@ -45,6 +45,11 @@ a:hover {
   max-width: 30%;
   float: left;
 }
+.column1, .column2 {
+  flex-direction: row;
+  border: 1px
+}
+
 .container {
   flex-wrap: nowrap;
   padding-top: 50px;
