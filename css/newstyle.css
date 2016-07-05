@@ -2,20 +2,48 @@
   box-sizing: border-box;
 }
 
-body, ul, h1, h2, h3 {
+body, h1 ul, h2, h3 {
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
 }
-a {
-  color: #40441E;
+#logo, h1, h2, h3 {
+color: yellow;
 }
-
+#logo, h1 {
+font-size: 3em;
+}
+h1 {
+  align-content: center;
+  color: MediumVioletRed;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+font-size: 1.5em;
+font-style: italic;
+}
+h4, nav li {
+  font-size: 1em;
+}
+h5 {
+font-size: .75em;
+font-style: italic;
+}
+a {
+  color: black;
+}
+nav a {
+  color: yellow;
+}
 a:hover {
   color: blue;
   text-decoration: none;
 }
-
+#logo, h1 {
+  text-transform: uppercase;
+}
 #home,
 #work,
 #me {
@@ -24,119 +52,87 @@ a:hover {
 #home {
   background-image: url(/assets/deskhorizontal.jpg);
   background-size: cover;
-  opacity: .5;
+  opacity: .75;
 }
 #work,
 #me {
   background-color: tan;
   background-size: cover;
 }
-.column1 {
-dislay: flex;
-box-sizing: border-box;
+/* header is our first flex container*/
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;;
+  margin: 2em;
+}
+/*as children of header, logo and nav become flex items*/
+#logo
+nav {
+  flex: 1;
+}
+#logo {
+font-size: 3em;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+.columns {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.sample {
+flex: 1;
+flex-flow: wrap;
 border: 1px solid black;
 background-color: white;
 height: auto;
 flex-wrap: wrap;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-}
-#logo {
-width: 45%;
-color: white;
-opacity: 7;
-}
 
-h1 {
-color: white;
-font-size: 3em;
-text-align: center;
-}
-h2 {
-  color: white;
-  font-size: 2em;
-}
-h3 {
-color: white;
-font-size: 1.5em;
-font-style: italic;
-width: 45%;
-}
-h4 {
-  font-size: 1em;
-}
-h5 {
-font-size: .75em;
-font-style: italic;
-}
-img {
-max-width: 30%;
-padding: 0 0 0 10px;
-float:left;
-}
+/*flex container on "about me" page*/
 .container {
 display: flex;
 justify-content: center;
 }
 #profile {
-max-width: 30%;
-padding: 40 0 0 10px;
+flex: 1;
+max-width: 40%;
+margin: 0 auto;
+}
+img {
+  max-width: 45%;
 }
 #bio {
+  flex: 1;
   font-size: 1.5em;
-  box-sizing: border-box;
-  padding: 10px;
-  max-width: 30%;
+  max-width: 45%;
+  margin: 0 auto;
 }
-/* style my navigation */
-nav {
-width: 45%;
-
-}
-nav a {
-text-decoration: none;
-color: white;
-}
-nav li {
-list-style: none;
-display: inline;
-font-size: 1.5em;
-padding-right: 10px;
-}
-//* end of navigation style *//
-
-
-/*--#skills #specialities {
-box-sizing: border-box;
-border: 1px solid black;
-width: 40%;
-}
-#skills {
-padding: 60 10 0 10px;
-float: left;--
-}--*/
 span {
 font-style: italic;
 }
-/*--#specialities {
-padding: 40 0 0 10px;
-}*/
-
-#me {
-  background-color: tan;
-}
 footer {
   display: flex;
-  justify-content: flex-end;
+  justify-content: baseline;
 }
 footer li {
   display: inline;
   justify-content: center;
   text-decoration: none;
 }
-@media (min-width: 40em) {
+/*@media (min-width: 40em) {
   main {
     width: 35em;
   }
