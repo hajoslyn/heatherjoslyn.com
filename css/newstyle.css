@@ -84,9 +84,6 @@ nav li {
   justify-content: space-between;
   font-size: 1.5em;
 }
-.columns {
-  display: flex;
-}
 .column {
   display: flex;
   flex-direction: row;
@@ -98,7 +95,6 @@ flex-flow: wrap;
 border: 1px solid black;
 background-color: white;
 height: auto;
-flex-wrap: wrap;
 }
 
 /*flex container on "about me" page*/
@@ -106,13 +102,10 @@ flex-wrap: wrap;
 display: flex;
 justify-content: center;
 }
-#profile {
+#profile, img {
 flex: 1;
-max-width: 40%;
+max-width: 45%;
 margin: 0 auto;
-}
-img {
-  max-width: 45%;
 }
 #bio {
   flex: 1;
