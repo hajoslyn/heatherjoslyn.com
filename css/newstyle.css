@@ -108,6 +108,9 @@ h3 {
   width: 30em;
   margin-right: 10em;
 }
+.skilllist li {
+    list-style: square;
+}
 /*styling writing samples on "work" pages*/
 .column {
   display: flex;
