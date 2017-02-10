@@ -11,7 +11,7 @@ h2, nav a {
   color: yellow;
 }
 h3 {
-  color: Lime;
+  color: lime;
 }
 #logo, h1 {
 font-size: 3em;
@@ -40,11 +40,6 @@ a:hover {
   background-size: cover;
   opacity: .75;
 }
-#work,
-#me {
-  background-color: tan;
-  background-size: cover;
-}
 /* header is our first flex container*/
 header {
   display: flex;
@@ -71,8 +66,6 @@ nav li {
   font-size: 1.5em;
   padding-left: 10px;
 }
-
-
 /*styling content under the header on home page*/
 .subheds {
   display: flex;
@@ -140,7 +133,6 @@ font-style: italic;
 .skilllist, .sample {
   font-size: 1em;
 }
-
 /*flex container on "about me" page*/
 .container {
   display: flex;
