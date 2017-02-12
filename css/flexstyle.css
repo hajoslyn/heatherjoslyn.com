@@ -1,0 +1,50 @@
+*, body, h1, ul, h2, h3, #skills, .skilllist, .sample, #bio {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+#profile {
+  box-sizing: border-box;
+}
+#logo, h1 {
+    text-transform: uppercase;
+  }
+.clearfix, #skills {
+    display: flex;
+    flex-direction: row;
+  }
+#logo, nav, .skilllist {
+    display: inline;
+    justify-content: space-around;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+
+  span {
+  font-style: italic;
+  }
+  footer {
+    display: flex;
+    justify-content: baseline;
+  }
+  footer li {
+    display: inline;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  #icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .socialicons {
+    display: inline;
+    justify-content: space-around;
+    height: 2em;
+    width: 2em;
+  }
