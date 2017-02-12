@@ -2,12 +2,14 @@
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
 }
+#home,
+#work,
+#me {
+  height: 100vh;
+}
 #profile {
   box-sizing: border-box;
 }
-#logo, h1 {
-    text-transform: uppercase;
-  }
 .clearfix, #skills {
     display: flex;
     flex-direction: row;
@@ -15,6 +17,10 @@
 #logo, nav, .skilllist {
     display: inline;
     justify-content: space-around;
+  }
+  #logo, h1 {
+    font-size: 3em;
+    text-transform: uppercase;
   }
   a {
     color: black;
@@ -47,4 +53,22 @@
     justify-content: space-around;
     height: 2em;
     width: 2em;
+  }
+  /*@media (min-width: 40em) {
+    main {
+      width: 35em;
+    }
+  @media (min-width: 28em) {
+    footer li {
+      width: 9em;
+      margin-left: 1em;
+    }
+  /*--HELPERS*/
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both;
   }
