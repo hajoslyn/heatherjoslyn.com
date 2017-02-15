@@ -7,6 +7,11 @@
 #me {
   height: 100vh;
 }
+#home {
+    background-image: url(/assets/typewriterstock.jpg);
+    background-size: cover;
+    opacity: .75;
+}
 #profile {
   box-sizing: border-box;
 }
